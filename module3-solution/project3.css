@@ -1,0 +1,92 @@
+header{
+    background-color:grey;
+    border: 2px solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+
+body{
+    background-color:white;
+}
+
+#bodyrow{
+    height:1000px;
+}
+
+#headerrow{
+    text-align:center;
+    font-weight:bold;
+    font-size:21px;
+    margin-top:5px;
+}
+
+.text-center{
+    font-size:30px;
+    font-weight:bold;
+}
+
+
+.col-xs-12{
+    background-color:grey;
+
+}
+
+#textcontainer{
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.navbar-toggler{
+    color: black;   
+    border:2px solid;
+}
+
+.navbar-toggler-icon{
+    color:white;
+}
+
+.navbar-toggler:hover{
+    color:lightgrey;
+}
+
+#navbarNav{
+    text-align: center;
+}
+
+#chicken{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    font-family: Verdana;
+}
+
+#beef{
+    border: 1px solid;
+    font-family: Verdana;
+}
+
+#sushi{
+    border: 1px solid;
+    font-family: Verdana;
+}
+
+ul{
+    border: 2px solid;
+}
+
+@media (max-width: 576px) {
+    #textcontainer{
+        padding-left:10%;
+        padding-right:10%;
+    }
+}
+
+@media (min-width: 576px)  { 
+    .navbar-toggler{
+        display: none;
+    }
+    #navbarNav{
+        display: none;
+    }
+
+}
